@@ -4,7 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:ar": "ng serve -c ar",
     "build": "ng build",
+    "build:ar": "ng build -c ar",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -24,9 +26,11 @@
     "@angular/compiler": "^20.1.0",
     "@angular/core": "^20.1.0",
     "@angular/forms": "^20.1.0",
+    "@angular/localize": "^20.3.6",
     "@angular/platform-browser": "^20.1.0",
     "@angular/router": "^20.1.0",
     "rxjs": "~7.8.0",
+    "tippy.js": "^6.3.7",
     "tslib": "^2.3.0"
   },
   "devDependencies": {

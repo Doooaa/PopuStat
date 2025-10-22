@@ -1,0 +1,44 @@
+
+nav {
+  background: linear-gradient(90deg, #4682b4 0%, #4f94d4 100%);
+  box-shadow: 0 2px 8px rgba(70, 130, 180, 0.08);
+  padding: 0.5rem 0;
+
+  ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li {
+    margin: 0;
+  }
+
+  a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+
+    &:hover,
+    &:focus {
+      background: rgba(255, 255, 255, 0.16);
+      color: #222;
+      box-shadow: 0 1px 6px rgba(70,130,180,0.13);
+      outline: none;
+    }
+
+    &:active {
+      background: #3b7cb7;
+      color: #fff;
+    }
+  }
+}
+
